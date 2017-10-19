@@ -1,0 +1,7 @@
+[user]
+	email = cmarangon@raptus.com
+	name = Claudio Marangon
+[core]
+	filemode = false
+[push]
+	default = simple

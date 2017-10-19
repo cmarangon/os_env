@@ -1,0 +1,6 @@
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Map (UTF-8) non-breaking space to regular space, in case the user
+# accidentally types Option-Space when they meant Space.
+"\xC2\xA0": " "
