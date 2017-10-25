@@ -1,0 +1,10 @@
+*
+
+!.gitignore
+!.bash_aliases
+!.bash_git
+!.bash_path
+!.bash_profile
+!.bashrc
+!.inputrc
+!.vimrc
