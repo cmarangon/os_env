@@ -1,26 +1,21 @@
 # OSX Profile
 #
 
-# Paths
-if [ -f ~/.bash_path ]; then
-    source ~/.bash_path
-fi
-
 # Aliases
-if [ -f ~/.bash_aliases ]; then
-    source ~/.bash_aliases
+if [ -f ~/.zsh_aliases ]; then
+    source ~/.zsh_aliases
 fi
 
 # GIT
-if [ -f ~/.bash_git ]; then
-    source ~/.bash_git
+if [ -f ~/.zsh_git ]; then
+    source ~/.zsh_git
     export GIT_PS1_SHOWDIRTYSTATE=1
     export GIT_PS1_SHOWUPSTREAM="auto"
 fi
 
 # Raptus
-if [ -f ~/.bash_raptus ]; then
-    source ~/.bash_raptus
+if [ -f ~/.zsh_raptus ]; then
+    source ~/.zsh_raptus
 fi
 
 
@@ -35,7 +30,8 @@ export HISTSIZE=10000
 export HISTCONTROL=ignoredups
 
 #export PS1="\[\033[01;34m\]\u@\[\033[01;31m\]\h\[\033[00m\]:\w # "
-export PS1=$'\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w \xf0\x9f\x94\xa5\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+#export PS1=$'\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w \xf0\x9f\x94\xa5\[\033[0;32m\]$(__git_ps1)\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
+export PS1=$'\[\033[0;32m\]\[\033[0m\033[0;32m\]\u\[\033[0;36m\] @ \[\033[0;36m\]\h \w \xf0\x9f\x94\xa5\\n\[\033[0;32m\]└─\[\033[0m\033[0;32m\] \$\[\033[0m\033[0;32m\] ▶\[\033[0m\] '
 export LC_ALL="en_US.UTF-8"
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:
 export LS_OPTIONS='--color=auto'

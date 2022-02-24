@@ -12,4 +12,10 @@ alias l='ls -lha'
 alias gp="grep -nir --color=auto --exclude-dir={\.svn,\.git,node_modules} --exclude=\*.{css,min.js,min.css,js.map,css.map}"
 
 alias csvn='rm -rf `find . -type d -name .svn`'
-alias cln='rm -rf `find . -name ._*`'
+alias cln='rm -rf `find . -name "._*"`'
+
+alias cathosts='cat /private/etc/hosts'
+alias vihosts='sudo vi /private/etc/hosts'
+
+alias dev='cd /Users/cmarangon/development'
+alias temp='cd /Users/cmarangon/development/temp'

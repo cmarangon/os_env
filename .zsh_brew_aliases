@@ -1,0 +1,3 @@
+alias ssvn16='brew unlink subversion;brew unlink subversion17;brew link subversion16'
+alias ssvn17='brew unlink subversion;brew unlink subversion16;brew link subversion17'
+alias ssvn18='brew unlink subversion16;brew unlink subversion17;brew link subversion;brew switch subvers    ion 1.8.5'

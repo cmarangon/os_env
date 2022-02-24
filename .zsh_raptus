@@ -1,0 +1,10 @@
+# include raptus alias 
+if [ -f ~/.zsh_raptus_alias ]; then
+    source ~/.zsh_raptus_alias
+fi
+
+# include raptus mounts
+if [ -f ~/.zsh_raptus_mounts ]; then
+    source ~/.zsh_raptus_mounts
+fi
+

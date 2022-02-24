@@ -1,0 +1,5 @@
+# Aliases
+if [ -f ~/.zsh_brew_aliases ]; then
+    source ~/.zsh_brew_aliases
+fi
+
