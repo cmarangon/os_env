@@ -17,5 +17,5 @@ alias cln='rm -rf `find . -name "._*"`'
 alias cathosts='cat /private/etc/hosts'
 alias vihosts='sudo vi /private/etc/hosts'
 
-alias dev='cd /Users/cmarangon/development'
-alias temp='cd /Users/cmarangon/development/temp'
+alias dev='cd ~/development'
+alias temp='cd ~/development/temp'
