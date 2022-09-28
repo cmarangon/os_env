@@ -19,3 +19,10 @@ alias vihosts='sudo vi /private/etc/hosts'
 
 alias dev='cd ~/development'
 alias temp='cd ~/development/temp'
+
+alias php-log='tail -f ~/homebrew/var/log/php/*.log'
+
+
+alias www='cd ~/homebrew/var/www'
+
+alias php7='~/homebrew/opt/php@7.4/bin/php'

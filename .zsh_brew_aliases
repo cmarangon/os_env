@@ -1,3 +1,2 @@
-alias ssvn16='brew unlink subversion;brew unlink subversion17;brew link subversion16'
-alias ssvn17='brew unlink subversion;brew unlink subversion16;brew link subversion17'
-alias ssvn18='brew unlink subversion16;brew unlink subversion17;brew link subversion;brew switch subvers    ion 1.8.5'
+alias 7.4='{ brew unlink php@8.1; brew link php@7.4 --force --overwrite; } && php -v'
+alias 8.1='{ brew unlink php@7.4; brew link php@8.1 --force --overwrite; } && php -v'
